@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(16, 16, 16);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    width: 500px;
+    background-color: #fff;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.esc{
+    display: flex;
+    gap: 10px;
+}
+
+
+.esc div{
+    transition: 0.5s;
+}
+
+.esc div:hover{
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+
+.inp{
+    border: none;
+    background-color: rgb(162, 166, 164);
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 203, 34);
+    border-radius: 5px;
+}
+
+.res{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(168, 7, 7);
+}

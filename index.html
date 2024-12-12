@@ -10,8 +10,23 @@
         <link rel="stylesheet" href="Css\style.css">
     </head>
     <body>
-        <h1>Teste</h1>
-        <button>Teste</button>
+        <div class="container">
+            <div class="calc">
+                <input type="number" id="tn1" class="inp">
+                <div class="esc">
+                    <div>+</div>
+                    <div>-</div>
+                    <div>x</div>
+                    <div>%</div>
+                </div>
+
+                <input type="number" id="tn2" class="inp">
+              
+                <button onclick="soma()">Somar</button>
+        
+                <div id="res" class="res">Resposta</div>
+            </div>
+        </div>
         <script src="Js/script.js" async defer></script>
     </body>
 </html>
