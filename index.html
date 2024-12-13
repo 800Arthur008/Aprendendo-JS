@@ -14,15 +14,15 @@
             <div class="calc">
                 <input type="number" id="tn1" class="inp">
                 <div class="esc">
-                    <div>+</div>
-                    <div>-</div>
-                    <div>x</div>
-                    <div>%</div>
+                    <div id="soma" onclick="operador('+')">+</div>
+                    <div id="sub" onclick="operador('-')">-</div>
+                    <div id="mult" onclick="operador('*')">x</div>
+                    <div id="divi" onclick="operador('/')">/</div>
                 </div>
 
                 <input type="number" id="tn2" class="inp">
               
-                <button onclick="soma()">Somar</button>
+                <button onclick="calc()">Calcular</button>
         
                 <div id="res" class="res">Resposta</div>
             </div>

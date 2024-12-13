@@ -36,6 +36,7 @@ body{
 .esc div:hover{
     font-size: 24px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 
