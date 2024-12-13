@@ -30,6 +30,7 @@ body{
 
 
 .esc div{
+    font-size: 15px;
     transition: 0.5s;
 }
 
@@ -42,7 +43,7 @@ body{
 
 .inp{
     border: none;
-    background-color: rgb(162, 166, 164);
+    background-color: #a2a6a4;
     height: 30px;
     width: 50%;
     border-radius: 20px;
@@ -57,8 +58,13 @@ button{
     border-radius: 5px;
 }
 
-.res{
+button.clean{
     margin-top: 20px;
+    background-color: #b5cfc2;
+}
+
+.res{
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 700;
     color: rgb(168, 7, 7);

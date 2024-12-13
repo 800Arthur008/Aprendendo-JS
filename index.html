@@ -12,6 +12,7 @@
     <body>
         <div class="container">
             <div class="calc">
+                <div id="res" class="res">Resposta</div>
                 <input type="number" id="tn1" class="inp">
                 <div class="esc">
                     <div id="soma" onclick="operador('+')">+</div>
@@ -23,8 +24,7 @@
                 <input type="number" id="tn2" class="inp">
               
                 <button onclick="calc()">Calcular</button>
-        
-                <div id="res" class="res">Resposta</div>
+                <button class="clean" onclick="operador('')">Limpar</button>
             </div>
         </div>
         <script src="Js/script.js" async defer></script>
